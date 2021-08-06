@@ -1,0 +1,139 @@
+.container {
+    background-color:white;
+    width:100%;
+    height:100%
+}
+ /*row naming styling*/
+#real {
+    margin-bottom: 3%;
+    background-color: lightskyblue;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+/* styling of div and components*/
+.circle {
+  border-radius: 50%;
+  margin-left: 40%;
+  margin-right: 30%;
+}
+.time {
+  margin-left: 2%;
+}
+
+.white,.copy,.time {
+  color:whitesmoke;
+}
+
+.mean {
+  margin-left: 30%;
+}
+
+
+#mars {
+  font-size: 3rem;
+  margin-left: 2%;
+  color:whitesmoke
+}
+
+#mars:hover {
+  color:black;
+}
+
+#video:hover {
+  color:black;
+}
+
+#ellipsis:hover {
+  color:black;
+}
+
+#call:hover {
+  color:black;
+}
+
+#video {
+  color: whitesmoke;
+  font-size: 4rem;
+  margin-left: 08%;
+}
+
+#call {
+  color: whitesmoke;
+  font-size: 4rem;
+  margin-left: 10%;
+}
+
+#ellipsis {
+  color: whitesmoke;
+  font-size: 4rem;
+}
+
+#second {
+  background-color:whitesmoke;
+  margin-right: 50%;
+  border-radius:40px 20px 20px 40px;
+  padding: 2%;
+}
+
+#third {
+  text-align: justify;
+}
+
+#sixth {
+    text-align:justify;
+}
+
+#fifth {
+  background-color: lightskyblue;
+  margin-left: 50%;
+  padding: 2%;
+  border-radius: 20px 40px 40px 20px;
+  box-shadow: white;
+}
+
+#search {
+   margin-top: 10%;
+  justify-content: center;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 3px solid rgb(10, 10, 10);
+  float: left;
+  width: 50%;
+  background:rgb(197, 200, 202);
+  /* margin-left: 7%; */
+  border-radius: 10px 0px 0px 10px;
+  margin-bottom: 7%;
+}
+
+
+form.example button {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  background:lightskyblue;
+  color:black;
+  font-size: 17px;
+  border: 3px solid rgb(20, 19, 19);
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  border-radius: 0px 10px 10px 0px;
+}
+
+form.example button:hover {
+  background: blue
+}
+
+form.example {
+  width:70%;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ 
